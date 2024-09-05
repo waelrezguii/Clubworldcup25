@@ -8,7 +8,7 @@ import { tap } from 'rxjs/operators';
 })
 export class UsersService {
 
-  private apiUrl = 'http://localhost:8080/api/v1/users'; // Base URL for user API
+  private apiUrl = 'https://api.render.com/deploy/srv-crd40f3tq21c73ct2v7g?key=nL6x1d7p1ac/api/v1/users'; // Base URL for user API
 
   constructor(private http: HttpClient) { }
 
