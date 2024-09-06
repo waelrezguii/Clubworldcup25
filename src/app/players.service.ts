@@ -8,8 +8,8 @@ import { Players } from './models/player.model';
   providedIn: 'root'
 })
 export class PlayersService {
-  private baseUrl = 'https://api.render.com/srv-crd40f3tq21c73ct2v7g/api/v1/players';
-
+  private baseUrl = 'https://club-world-cup-2025.onrender.com/api/v1/players';
+  
   constructor(private http: HttpClient) {}
 
   
