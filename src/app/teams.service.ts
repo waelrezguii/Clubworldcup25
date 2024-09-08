@@ -8,7 +8,7 @@ import { Teams } from './models/team.model';
   providedIn: 'root'
 })
 export class TeamsService {
-  private apiUrl = '/api/v1/teams';
+  private apiUrl = 'https://club-world-cup-2025.onrender.com/api/v1/teams';
 
   constructor(private http: HttpClient) { }
 
