@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/your-angular-project-name"
+  publish = "dist/club-world-cup25"
   command = "ng build --prod"
 
 [[redirects]]
