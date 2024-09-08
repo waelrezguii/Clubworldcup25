@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/club-world-cup25",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
